@@ -15,7 +15,7 @@ int main(void)
 			if (brackets.Empty() != true)
 				brackets.Pop();
 			else
-			{
+	{
 				brackets.Push('{');
 				break;
 			}
